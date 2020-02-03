@@ -376,7 +376,7 @@ check_multilib_support
 # --------------------------------------------
 # Install the base packages
 put_cutoff 'Install the base packages ...'
-pacstrap /mnt base base-devel git vim wget curl arch-install-scripts dhcpcd
+pacstrap /mnt base base-devel linux linux-firmware git vim wget curl arch-install-scripts dhcpcd wpa_applicant
 
 # --------------------------------------------
 # Configure the system
